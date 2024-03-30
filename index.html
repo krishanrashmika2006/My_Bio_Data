@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body style="background-color: black;">
+    <div class="homebackimg">
+        <div class="homepage1">
+            <!-- <img src="download.png" alt=""> -->
+        </div>
+
+
+        <div class="homepageA1">
+
+
+            <div class="a1">
+
+                <h1>Krishan Rashmika</h1>
+                <p><br><br>Hey there! I'm a KrishanRashmika. living in Katuwana, GA. I'm motivated, detail-oriented,
+                    and pursuing a career in graphic design.</p>
+
+                <br><br>
+
+                <button id="nextButton" class="my-button">About me</button> <br>
+                <!-- <img src="https://www.kindpng.com/picc/m/574-5740181_watermark-for-marriage-biodata-hd-png-download.png"
+                alt="Watermark For Marriage Biodata, HD Png Download@kindpng.com"> -->
+
+            </div>
+
+            <div class="a2">
+                <div onclick="next()" class="photo"></div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="secondhome">
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+        function next() {
+            window.location.href = 'abouteme.html';
+        };
+
+
+        document.getElementById("nextButton").addEventListener("click", function () {
+
+            window.location.href = 'abouteme.html';
+        });
+
+        document.getElementById("photography").addEventListener("click", function () {
+
+            window.location.href = 'photography.html';
+        });
+
+
+
+    </script>
+</body>
+
+</html>
