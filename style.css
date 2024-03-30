@@ -193,7 +193,7 @@ margin-top: 60px;
     font-size: 15px;
 
 }
-.test{
+/* .test{
        border: 1px solid red;  
        width: 250px;
        height: 250px;
@@ -201,4 +201,19 @@ margin-top: 60px;
        justify-content: center;
        display: flex;
        align-items: center;
+} */
+
+
+
+
+.skills{
+width: 100%;
+height: 150px;
+border: 1px solid red;  
+}
+
+.btn {
+    width: 150px;
+    height: 60px;
+    margin: 20px;
 }
